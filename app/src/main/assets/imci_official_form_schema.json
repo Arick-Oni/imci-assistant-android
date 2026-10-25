@@ -1,0 +1,1822 @@
+{
+  "_about": "Official IMCI app form (DGHS / Save the Children), derived from an aggregated export of imci_dhis2_daily_db (18085 visits, 2025-05-12 to 2026-09-16). kind=question: asked of the caregiver; kind=observation: examined/measured by the health worker. Free-text answers deliberately excluded. Bangla wording and DHIS2 ids from 'IMCI Tracker Data Items Mapping with API 13-Sep-2026'; classifications and colour codes from 'IMCI disease color code for SCI V1.02'.",
+  "age_groups": [
+    "0-2 months",
+    "2-59 months"
+  ],
+  "areas": [
+    {
+      "age_group": "0-2 months",
+      "area_code": "diarrhea",
+      "area_name": "Diarrhea",
+      "items": [
+        {
+          "key": "o16",
+          "kind": "observation",
+          "text": "Does the infant move on his/her own(Diarrhoea)?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 27,
+          "yes_share_pct": 85.19,
+          "text_bn": "ছোট শিশু কি নিজেই নড়াচড়া করতে পারছে?",
+          "dhis2_id": "tnPRjh8hM8F"
+        },
+        {
+          "key": "o17",
+          "kind": "observation",
+          "text": "Does the infant move only when stimulated(Diarrhoea)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 4,
+          "yes_share_pct": 50.0,
+          "text_bn": "ছোট শিশুটি কি শুধু মাত্র উত্তেজিত করলে নড়াচড়া করে?",
+          "dhis2_id": "gEzuPBfOAxb"
+        },
+        {
+          "key": "o18",
+          "kind": "observation",
+          "text": "Does the infant not move at all(Diarrhoea)?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 2,
+          "yes_share_pct": 50.0,
+          "text_bn": "ছোট শিশুটি কি আদৌ নড়াচড়া করে?",
+          "dhis2_id": "qSPewzzXeJ0"
+        },
+        {
+          "key": "o19",
+          "kind": "observation",
+          "text": "Is the child restless and irritable?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 26,
+          "yes_share_pct": 50.0,
+          "text_bn": "ছোট শিশু কি অস্থির এবং খিটখিটে?",
+          "dhis2_id": "T2Wp4n90tWl"
+        },
+        {
+          "key": "o20",
+          "kind": "observation",
+          "text": "Look for sunken eyes(0-2m)",
+          "answer_type": "yes_no",
+          "records": 27,
+          "yes_share_pct": 33.33,
+          "text_bn": "চোখ বসে গেছে কি না দেখুন",
+          "dhis2_id": "Ly7lUNbpphd"
+        },
+        {
+          "key": "o21",
+          "kind": "observation",
+          "text": "Pinch the skin of the abdomen (0-2m)",
+          "answer_type": "choice",
+          "records": 27,
+          "options": [
+            "Normal",
+            "Slowly"
+          ],
+          "option_share_pct": {
+            "Normal": 66.67,
+            "Slowly": 33.33
+          },
+          "text_bn": "পেটের চামড়া টেনে ধরে ছেড়ে দিন।",
+          "dhis2_id": "Jpg9Z1D1dwk"
+        },
+        {
+          "key": "q10",
+          "kind": "question",
+          "text": "Does the child have diarrhea? (0-2m)",
+          "answer_type": "yes_no",
+          "records": 763,
+          "yes_share_pct": 3.54,
+          "text_bn": "ছোট শিশুর কি ডায়রিয়া আছে?",
+          "dhis2_id": "JBx7CB2nlCq"
+        }
+      ]
+    },
+    {
+      "age_group": "0-2 months",
+      "area_code": "eye_problem",
+      "area_name": "Eye Problem",
+      "items": [
+        {
+          "key": "o90",
+          "kind": "observation",
+          "text": "Cataract/Retinoblastoma/Others(Eye's Problem)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 3,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখের ছানি/রেটিনোব্লাস্টোমা/অন্যান্য",
+          "dhis2_id": "sla1ol8symQ"
+        },
+        {
+          "key": "o91",
+          "kind": "observation",
+          "text": "Discharge of water or pus from the eye(Eye's Problem)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 17,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখ দিয়ে পানি বা পুঁজ পড়া",
+          "dhis2_id": "PkH1fKw7yf0"
+        },
+        {
+          "key": "o92",
+          "kind": "observation",
+          "text": "Red eye (corneal or eye injury/conjunctivitis) (Eye's Problem)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 4,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখ লাল হয়ে যাওয়া (কর্নিয়া বা চোখে ক্ষত/ কনজাংটিভাইটিস)",
+          "dhis2_id": "dpi5KNnzPdp"
+        },
+        {
+          "key": "o93",
+          "kind": "observation",
+          "text": "Structural defect (Eye's Problem)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 5,
+          "yes_share_pct": 100.0,
+          "text_bn": "গঠনজনিত ত্রুটি",
+          "dhis2_id": "XHOLfD7WvFv"
+        }
+      ]
+    },
+    {
+      "age_group": "0-2 months",
+      "area_code": "feeding_problem_or_low_weight",
+      "area_name": "Feeding Problem Or Low Weight",
+      "items": [
+        {
+          "key": "o22",
+          "kind": "observation",
+          "text": "Is the weight less than 2 kg?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 8,
+          "yes_share_pct": 75.0,
+          "text_bn": "ওজন কি ২ কেজি থেকে কম?",
+          "dhis2_id": "N2eGbr2nlfr"
+        },
+        {
+          "key": "o23",
+          "kind": "observation",
+          "text": "Measure WFH in Z Score(0-2)",
+          "answer_type": "choice",
+          "records": 699,
+          "options": [
+            "Greater than -2 Z",
+            "Between -2 to -3 Z",
+            "Less than -3 Z"
+          ],
+          "option_share_pct": {
+            "Greater than -2 Z": 88.56,
+            "Between -2 to -3 Z": 9.16,
+            "Less than -3 Z": 2.29
+          },
+          "text_bn": "WFH (Z স্কোর) পরিমাপ করুন",
+          "dhis2_id": "F7Chq9aeQMh"
+        },
+        {
+          "key": "o24",
+          "kind": "observation",
+          "text": "Is the weight low according to age?",
+          "answer_type": "yes_no",
+          "records": 696,
+          "yes_share_pct": 10.92,
+          "text_bn": "বয়স অনুপাতে কি ওজন কম?",
+          "dhis2_id": "geDmiOsskID"
+        },
+        {
+          "key": "o25",
+          "kind": "observation",
+          "text": "Thrush (ulcers or white patches in mouth)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 258,
+          "yes_share_pct": 12.79,
+          "text_bn": "থ্রাশ(মুখে ঘা অথবা সাদা ঘা)",
+          "dhis2_id": "ZnOR0RhFnf9"
+        },
+        {
+          "key": "o26",
+          "kind": "observation",
+          "text": "Chin touching breast(0-2m)",
+          "answer_type": "yes_no",
+          "records": 238,
+          "yes_share_pct": 82.35,
+          "text_bn": "থুত্নী স্তন স্পর্শ করেছে",
+          "dhis2_id": "C90ET19AqR7"
+        },
+        {
+          "key": "o27",
+          "kind": "observation",
+          "text": "Mouth wide open(0-2m)",
+          "answer_type": "yes_no",
+          "records": 238,
+          "yes_share_pct": 85.71,
+          "text_bn": "বড় করে মুখ খোলা",
+          "dhis2_id": "EYDbqGpNHmF"
+        },
+        {
+          "key": "o28",
+          "kind": "observation",
+          "text": "Lower lip turned outward(0-2m)",
+          "answer_type": "yes_no",
+          "records": 236,
+          "yes_share_pct": 83.9,
+          "text_bn": "নিচের ঠোঁট বাইরের দিকে উল্টে রয়েছে",
+          "dhis2_id": "FUAqQYD7s2f"
+        },
+        {
+          "key": "o29",
+          "kind": "observation",
+          "text": "More areola above than below the mouth(0-2m)",
+          "answer_type": "yes_no",
+          "records": 235,
+          "yes_share_pct": 81.7,
+          "text_bn": "এরিওলা নিচের দিকের চেয়ে মুখের উপরের দিকে বেশী দৃশ্যমান",
+          "dhis2_id": "gYvr3hnVs75"
+        },
+        {
+          "key": "o30",
+          "kind": "observation",
+          "text": "Straight head and body(0-2m)",
+          "answer_type": "yes_no",
+          "records": 234,
+          "yes_share_pct": 86.32,
+          "text_bn": "মাথা এবং শরীর সোজা",
+          "dhis2_id": "O1k7G2mo62h"
+        },
+        {
+          "key": "o31",
+          "kind": "observation",
+          "text": "Body close to the mother(0-2m)",
+          "answer_type": "yes_no",
+          "records": 233,
+          "yes_share_pct": 88.41,
+          "text_bn": "ছোট শিশু মায়ের গায়ের সাথে লেগে",
+          "dhis2_id": "W2wu7Dm0GLN"
+        },
+        {
+          "key": "o32",
+          "kind": "observation",
+          "text": "The whole body fully supported (0-2m)",
+          "answer_type": "yes_no",
+          "records": 235,
+          "yes_share_pct": 84.68,
+          "text_bn": "পুরো শরীর আগলে রাখা",
+          "dhis2_id": "nTDBKpfSMoo"
+        },
+        {
+          "key": "o33",
+          "kind": "observation",
+          "text": "Facing breast, nose opposite to nipple(0-2m)",
+          "answer_type": "yes_no",
+          "records": 234,
+          "yes_share_pct": 91.88,
+          "text_bn": "মুখ স্তনের দিকে ফিরানো",
+          "dhis2_id": "MBKFYU7V6ET"
+        },
+        {
+          "key": "o34",
+          "kind": "observation",
+          "text": "Does the mother have pain?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 241,
+          "yes_share_pct": 4.56,
+          "text_bn": "বুকের দুধ খাওয়ানোর সময় মায়ের কি ব্যথা হয়?",
+          "dhis2_id": "YYIcfZC7Dio"
+        },
+        {
+          "key": "o35",
+          "kind": "observation",
+          "text": "Nipples Condition(0-2m)",
+          "answer_type": "choice",
+          "records": 6,
+          "options": [
+            "Flat nipples",
+            "Inverted nipples",
+            "Sore nipples"
+          ],
+          "option_share_pct": {
+            "Flat nipples": 50.0,
+            "Inverted nipples": 33.33,
+            "Sore nipples": 16.67
+          },
+          "text_bn": "স্তনের বোটা",
+          "dhis2_id": "KXKaIMOZ8Ft"
+        },
+        {
+          "key": "o36",
+          "kind": "observation",
+          "text": "Breasts Condition(0-2m)",
+          "answer_type": "choice",
+          "records": 4,
+          "options": [
+            "Engorged breasts"
+          ],
+          "option_share_pct": {
+            "Engorged breasts": 100.0
+          },
+          "text_bn": "স্তনের অবস্থা",
+          "dhis2_id": "hIEU0xAtL3t"
+        },
+        {
+          "key": "o37",
+          "kind": "observation",
+          "text": "Is the infant sucking effectively?(0-2m)",
+          "answer_type": "choice",
+          "records": 239,
+          "options": [
+            "Sucking effectively",
+            "Not sucking effectively",
+            "Not sucking at all"
+          ],
+          "option_share_pct": {
+            "Sucking effectively": 82.01,
+            "Not sucking effectively": 15.9,
+            "Not sucking at all": 2.09
+          },
+          "text_bn": "ছোট শিশু কি ভাল ভাবে দুধ চুষে খায়?",
+          "dhis2_id": "xl0oSdk0U93"
+        },
+        {
+          "key": "q11",
+          "kind": "question",
+          "text": "Is the infant breastfed?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 759,
+          "yes_share_pct": 92.89,
+          "text_bn": "ছোট শিশু কি বুকের দুধ খায়?",
+          "dhis2_id": "iIgTxI08BH5"
+        },
+        {
+          "key": "q12",
+          "kind": "question",
+          "text": "Drink breast milk less than 8 times in 24 hours?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 702,
+          "yes_share_pct": 14.25,
+          "text_bn": "২৪ ঘন্টায় ৮ বারের কম বুকের দুধ পান করে?",
+          "dhis2_id": "AZxpTA7yN54"
+        },
+        {
+          "key": "q13",
+          "kind": "question",
+          "text": "Does the infant usually receive any other food or drink?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 746,
+          "yes_share_pct": 6.3,
+          "text_bn": "ছোট শিশু কি সাধারণত অন্য কোন খাবার বা তরল খাবার খায়?",
+          "dhis2_id": "fwiF57d4mV2"
+        },
+        {
+          "key": "q14",
+          "kind": "question",
+          "text": "For how long?(0-2m)",
+          "answer_type": "free_text",
+          "records": 32,
+          "text_bn": "কত দিন ধরে?",
+          "dhis2_id": "La6qGF4eeOO"
+        },
+        {
+          "key": "q15",
+          "kind": "question",
+          "text": "Has the infant breastfed in the previous hour?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 699,
+          "yes_share_pct": 85.69,
+          "text_bn": "ছোট শিশুকে কি গত ১ ঘন্টায় বুকের দুধ খাওয়ানো হয়েছে?",
+          "dhis2_id": "woRn7H0PydZ"
+        }
+      ]
+    },
+    {
+      "age_group": "0-2 months",
+      "area_code": "jaundice",
+      "area_name": "Jaundice",
+      "items": [
+        {
+          "key": "o14",
+          "kind": "observation",
+          "text": "Look for Jaundice (Yellow eyes or skin) (Jaundice)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 69,
+          "yes_share_pct": 34.78,
+          "text_bn": "জন্ডিস লক্ষ্য করুন (হলদে চোখ ও চামড়া )",
+          "dhis2_id": "FF0TcGL1jYA"
+        },
+        {
+          "key": "o15",
+          "kind": "observation",
+          "text": "The young infant palms and soles are yellow? (Jaundice)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 67,
+          "yes_share_pct": 11.94,
+          "text_bn": "ছোট শিশুটির হাতের তালু ও পায়ের পাতা লক্ষ্য করুন। এগুলো কি হলদে হয়েছে?",
+          "dhis2_id": "lVX4bmOsEkQ"
+        },
+        {
+          "key": "q9",
+          "kind": "question",
+          "text": "Has the baby ever had jaundice?(0-2m)",
+          "answer_type": "choice",
+          "records": 544,
+          "options": [
+            "Never appeared",
+            "24 hours after birth",
+            "Within 24 hours of birth"
+          ],
+          "option_share_pct": {
+            "Never appeared": 89.15,
+            "24 hours after birth": 10.66,
+            "Within 24 hours of birth": 0.18
+          },
+          "text_bn": "ছোট শিশুর কি কখনও জন্ডিস দেখা দিয়েছিল?",
+          "dhis2_id": "r15iJVKulFI"
+        }
+      ]
+    },
+    {
+      "age_group": "0-2 months",
+      "area_code": "other_problem",
+      "area_name": "Other Problem",
+      "items": [
+        {
+          "key": "o94",
+          "kind": "observation",
+          "text": "Born before 32 weeks/History of premature birth (others)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 2,
+          "yes_share_pct": 100.0,
+          "text_bn": "৩২ সপ্তাহের আগে জন্মগ্রহণ/ অপরিনত জন্মের ইতিহাস",
+          "dhis2_id": "DAIu13Ovx5r"
+        },
+        {
+          "key": "o95",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (Born Before 32 weeks/Premature Birth) (others)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 2,
+          "yes_share_pct": 100.0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "wqfLsYOk5V5"
+        },
+        {
+          "key": "o96",
+          "kind": "observation",
+          "text": "Drowning into water(others)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 0,
+          "text_bn": "পানিতে ডুবে যাওয়া",
+          "dhis2_id": "hVHVCFv9wXV"
+        },
+        {
+          "key": "o97",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (Drowning) (Others) (0-2m)",
+          "answer_type": "yes_no",
+          "records": 0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "J7Umfeivz1S"
+        },
+        {
+          "key": "o98",
+          "kind": "observation",
+          "text": "Injury/accident-related illness (others) (0-2m)",
+          "answer_type": "yes_no",
+          "records": 7,
+          "yes_share_pct": 100.0,
+          "text_bn": "শিশুর আঘাত/ দূর্ঘটনাজনিত অসুস্থতা",
+          "dhis2_id": "kLjAEMcDheb"
+        },
+        {
+          "key": "o99",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (Injury) (Others)(0-2m)",
+          "answer_type": "yes_no",
+          "records": 4,
+          "yes_share_pct": 100.0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "oYrjSXbFi9R"
+        },
+        {
+          "key": "o100",
+          "kind": "observation",
+          "text": "Other problems (others) (0-2m)",
+          "answer_type": "yes_no",
+          "records": 314,
+          "yes_share_pct": 100.0,
+          "text_bn": "অন্যান্য সমস্যা",
+          "dhis2_id": "sCeInB1dMix"
+        },
+        {
+          "key": "o101",
+          "kind": "observation",
+          "text": "Other problems(specify) (others) (0-2m)",
+          "answer_type": "free_text",
+          "records": 293,
+          "text_bn": "অন্যান্য সমস্যা (নির্দিষ্ট করে লিখুন)",
+          "dhis2_id": "whcUq0p3Wl0"
+        }
+      ]
+    },
+    {
+      "age_group": "0-2 months",
+      "area_code": "very_severe_diseases",
+      "area_name": "Very Severe Diseases",
+      "items": [
+        {
+          "key": "o1",
+          "kind": "observation",
+          "text": "Look for bulging fontanels(0-2m)",
+          "answer_type": "yes_no",
+          "records": 832,
+          "yes_share_pct": 4.93,
+          "text_bn": "মাথার তালু স্ফীত হয় কি না লক্ষ্য করুন",
+          "dhis2_id": "LH898tJKPiw"
+        },
+        {
+          "key": "o2",
+          "kind": "observation",
+          "text": "Look for central cyanosis(0-2m)",
+          "answer_type": "yes_no",
+          "records": 830,
+          "yes_share_pct": 0.24,
+          "text_bn": "ছোট শিশুর শরীরের বিশেষ অংশ নীলবর্ণ ধারন করে কি না তা লক্ষ্য করুন",
+          "dhis2_id": "E6s7fFlpNQl"
+        },
+        {
+          "key": "o3",
+          "kind": "observation",
+          "text": "Look for convulsion(0-2m)",
+          "answer_type": "yes_no",
+          "records": 830,
+          "yes_share_pct": 0.24,
+          "text_bn": "ছোট শিশুর খিঁচুনী হচ্ছে কি না তা লক্ষ্য করুন",
+          "dhis2_id": "gPs8F9DuFds"
+        },
+        {
+          "key": "o4",
+          "kind": "observation",
+          "text": "Look for major congenital malformation(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 0.0,
+          "text_bn": "কোন গুরুতর জন্মগত বিকলাঙ্গতা আছে কি না তা লক্ষ্য করুন",
+          "dhis2_id": "twGQ6WdbwnT"
+        },
+        {
+          "key": "o5",
+          "kind": "observation",
+          "text": "Look for surgical condition required hospitalization(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 0.12,
+          "text_bn": "এমন অস্ত্রোপচার যার জন্য হাসপাতালে থাকতে হয়ে ছিল কি না তা লক্ষ্য করুন?",
+          "dhis2_id": "heL1TP7KD0U"
+        },
+        {
+          "key": "o6",
+          "kind": "observation",
+          "text": "Is the baby breathing 60 or more per minute in a calm state?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 6.88,
+          "text_bn": "শান্তবস্থায় ছোট শিশুর প্রতি মিনিটে কি শ্বাস-প্রশ্বাস ৬০ বা ততোধিক",
+          "dhis2_id": "WcsH4THTkKf"
+        },
+        {
+          "key": "o7",
+          "kind": "observation",
+          "text": "Look for chest indrawing(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 1.93,
+          "text_bn": "বুকের নিচের অংশ মারাত্মক ভাবে ডেবে যায়",
+          "dhis2_id": "hzmAgGrK3IP"
+        },
+        {
+          "key": "o8",
+          "kind": "observation",
+          "text": "Fever (99.5 degrees Fahrenheit or higher) or low body temperature (below 95.9 degrees Fahrenheit)?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 10.14,
+          "text_bn": "জ্বর (৯৯.৫ ডিগ্রী ফারেনহাইট বা বেশী) অথবা শরীরে অল্প তাপমাত্রা (৯৫.৯ ডিগ্রী ফারেনহাইট থেকে কম)?",
+          "dhis2_id": "fkRc7wiwU1r"
+        },
+        {
+          "key": "o9",
+          "kind": "observation",
+          "text": "Umbilicus red or draining pus?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 5.31,
+          "text_bn": "নাভী লাল অথবা পুঁজ পড়ছে কিনা লক্ষ্য করুন?",
+          "dhis2_id": "N6wCzp53Z9p"
+        },
+        {
+          "key": "o10",
+          "kind": "observation",
+          "text": "Look for skin pustules(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 3.74,
+          "text_bn": "চামড়ায় পুঁজসহ দানা আছে কি না লক্ষ্য করুন",
+          "dhis2_id": "xawBGuCyJsw"
+        },
+        {
+          "key": "o11",
+          "kind": "observation",
+          "text": "Does the infant move on his/her own?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 828,
+          "yes_share_pct": 88.16,
+          "text_bn": "ছোট শিশু কি নিজেই নড়াচড়া করতে পারছে?",
+          "dhis2_id": "bd1WpZPsn0d"
+        },
+        {
+          "key": "o12",
+          "kind": "observation",
+          "text": "Does the infant move only when stimulated(0-2m)",
+          "answer_type": "yes_no",
+          "records": 100,
+          "yes_share_pct": 23.0,
+          "text_bn": "ছোট শিশুটি কি শুধু মাত্র উত্তেজিত করলে নড়াচড়া করে?",
+          "dhis2_id": "pLVNiVKZLMh"
+        },
+        {
+          "key": "o13",
+          "kind": "observation",
+          "text": "Does the infant not move at all ?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 42,
+          "yes_share_pct": 85.71,
+          "text_bn": "ছোট শিশুটি কি আদৌ নড়াচড়া করে?",
+          "dhis2_id": "U4xO7gNmC4m"
+        },
+        {
+          "key": "q1",
+          "kind": "question",
+          "text": "Is the infant unconscious/drowsy?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 855,
+          "yes_share_pct": 1.64,
+          "text_bn": "ছোট শিশু কি অচেতন/ঝিমাচ্ছে ?",
+          "dhis2_id": "ylRn5CIVAvb"
+        },
+        {
+          "key": "q2",
+          "kind": "question",
+          "text": "Is the infant able to feed?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 836,
+          "yes_share_pct": 92.7,
+          "text_bn": "ছোট শিশু কি খেতে পারছে?",
+          "dhis2_id": "yjFdlbH4ur3"
+        },
+        {
+          "key": "q3",
+          "kind": "question",
+          "text": "Has the infant had convulsion? (0-2m)",
+          "answer_type": "yes_no",
+          "records": 836,
+          "yes_share_pct": 0.36,
+          "text_bn": "ছোট শিশুর কি খিচুনি হয়েছিল?",
+          "dhis2_id": "moQWkFmfBHV"
+        },
+        {
+          "key": "q4",
+          "kind": "question",
+          "text": "Has the infant had persistent vomiting?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 835,
+          "yes_share_pct": 1.8,
+          "text_bn": "ছোট শিশুটির কি ক্রমাগত বমি হচ্ছিল?",
+          "dhis2_id": "rLfHo7F88cn"
+        },
+        {
+          "key": "q5",
+          "kind": "question",
+          "text": "Does the baby ever stop breathing for 20 seconds or more during sleep (had apnea)?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 835,
+          "yes_share_pct": 0.24,
+          "text_bn": "ছোট শিশুর কি কখনো ঘুমের মধ্যে ২০ সেকেন্ড বা তার বেশি সময়ের জন্য শ্বাস বন্ধ হয়ে যায়?",
+          "dhis2_id": "vlMkwdZ5ZB1"
+        },
+        {
+          "key": "q6",
+          "kind": "question",
+          "text": "Has the infant had major bleeding?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 834,
+          "yes_share_pct": 0.0,
+          "text_bn": "ছোট শিশুটির গুরুতর রক্তপাত হয়েছে কি না?",
+          "dhis2_id": "ZVYoqE4Yct7"
+        },
+        {
+          "key": "q7",
+          "kind": "question",
+          "text": "Has the infant had birth weight < 1500 grams? (0-2m)",
+          "answer_type": "yes_no",
+          "records": 833,
+          "yes_share_pct": 4.56,
+          "text_bn": "ছোট শিশুটির জন্মের ওজন < ১৫০০ গ্রাম হয়েছে?",
+          "dhis2_id": "tJ5XKLEOZG2"
+        },
+        {
+          "key": "q8",
+          "kind": "question",
+          "text": "Is the infant having difficulty in feeding?(0-2m)",
+          "answer_type": "yes_no",
+          "records": 835,
+          "yes_share_pct": 3.83,
+          "text_bn": "ছোট শিশুটির কি খেতে কষ্ট হচ্ছে?",
+          "dhis2_id": "uCAIhLX4doV"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "anaemia",
+      "area_name": "Anaemia",
+      "items": [
+        {
+          "key": "o73",
+          "kind": "observation",
+          "text": "Notice, Whether the palm of the hand is faded(2-59)",
+          "answer_type": "choice",
+          "records": 14423,
+          "options": [
+            "Not Faded",
+            "Medium Faded",
+            "Very Faded"
+          ],
+          "option_share_pct": {
+            "Not Faded": 97.67,
+            "Medium Faded": 2.28,
+            "Very Faded": 0.05
+          },
+          "text_bn": "লক্ষ্য করুন - হাতের তালু ফ্যাকাসে কি না",
+          "dhis2_id": "OPvobvuNiAh"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "diarrhea",
+      "area_name": "Diarrhea",
+      "items": [
+        {
+          "key": "o46",
+          "kind": "observation",
+          "text": "Is the child lethargic or unconscious(2-59)?",
+          "answer_type": "yes_no",
+          "records": 1795,
+          "yes_share_pct": 0.84,
+          "text_bn": "শিশুটি কি নেতিয়ে পড়েছে বা অজ্ঞান?",
+          "dhis2_id": "aVkZq7RuDET"
+        },
+        {
+          "key": "o47",
+          "kind": "observation",
+          "text": "Is the child restless and irritable?(2-59m)",
+          "answer_type": "yes_no",
+          "records": 1779,
+          "yes_share_pct": 19.96,
+          "text_bn": "শিশুটি কি অস্থির এবং খিটখিটে?",
+          "dhis2_id": "iVjJ16FW1Aj"
+        },
+        {
+          "key": "o48",
+          "kind": "observation",
+          "text": "Look for sunken eyes(2-59m)",
+          "answer_type": "yes_no",
+          "records": 1795,
+          "yes_share_pct": 7.74,
+          "text_bn": "চোখ বসে গেছে কি না দেখুন",
+          "dhis2_id": "t5LJUBwLUOg"
+        },
+        {
+          "key": "o49",
+          "kind": "observation",
+          "text": "Is the child not able to drink or drinking poorly(2-59)?",
+          "answer_type": "yes_no",
+          "records": 1779,
+          "yes_share_pct": 16.19,
+          "text_bn": "শিশুটি কি পান করতে পারে না বা কম পান করে?",
+          "dhis2_id": "qqPQgwiBibU"
+        },
+        {
+          "key": "o50",
+          "kind": "observation",
+          "text": "Is the child drinking eagerly, thirsty(2-59)?",
+          "answer_type": "yes_no",
+          "records": 1779,
+          "yes_share_pct": 38.11,
+          "text_bn": "শিশুটি কি আগ্রহের সাথে পান করে, তৃর্ষ্ণাত?",
+          "dhis2_id": "lRNljyFwlJw"
+        },
+        {
+          "key": "o51",
+          "kind": "observation",
+          "text": "Pinch the skin of the abdomen. Does it go back(2-59m)",
+          "answer_type": "choice",
+          "records": 1795,
+          "options": [
+            "Normal",
+            "Slowly",
+            "Very slowly (longer than 2 seconds)"
+          ],
+          "option_share_pct": {
+            "Normal": 84.68,
+            "Slowly": 14.15,
+            "Very slowly (longer than 2 seconds)": 1.17
+          },
+          "text_bn": "পেটের চামড়া টেনে ধরে ছেড়ে দিলে স্বাভাবিক অবস্থায় ফিরে যায়",
+          "dhis2_id": "eeeXWNPSqLT"
+        },
+        {
+          "key": "q21",
+          "kind": "question",
+          "text": "Does the child have diarrhea?(2-59m)",
+          "answer_type": "yes_no",
+          "records": 17178,
+          "yes_share_pct": 10.46,
+          "text_bn": "শিশুটির কি ডায়রিয়া আছে?",
+          "dhis2_id": "T43b4xrl4wA"
+        },
+        {
+          "key": "q22",
+          "kind": "question",
+          "text": "Is it since 14 days or more?(diarrhoea)(2-59)?",
+          "answer_type": "yes_no",
+          "records": 1795,
+          "yes_share_pct": 0.39,
+          "text_bn": "১৪ দিন বা তার বেশি কিনা?",
+          "dhis2_id": "LqvlWGeI4KN"
+        },
+        {
+          "key": "q23",
+          "kind": "question",
+          "text": "Is there blood in the stool(2-59)?",
+          "answer_type": "yes_no",
+          "records": 1795,
+          "yes_share_pct": 2.62,
+          "text_bn": "মলে রক্ত আছে কি না ?",
+          "dhis2_id": "rF7zKy1zf3H"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "ear_problem",
+      "area_name": "Ear Problem",
+      "items": [
+        {
+          "key": "o65",
+          "kind": "observation",
+          "text": "Look for pus draining from the ear.",
+          "answer_type": "yes_no",
+          "records": 228,
+          "yes_share_pct": 46.05,
+          "text_bn": "লক্ষ্য করুন , কান থেকে পুঁজ পড়ে কি না",
+          "dhis2_id": "asqI6vBBjq0"
+        },
+        {
+          "key": "o66",
+          "kind": "observation",
+          "text": "Feel for tender swelling behind the ear",
+          "answer_type": "yes_no",
+          "records": 228,
+          "yes_share_pct": 8.33,
+          "text_bn": "অনুভব করুন, কানের পেছনে ব্যথা সহ ফোলা আছে কিনা লক্ষ্য করুন",
+          "dhis2_id": "pju4dm5FAcE"
+        },
+        {
+          "key": "q29",
+          "kind": "question",
+          "text": "Is there a problem with the baby's ear?",
+          "answer_type": "yes_no",
+          "records": 11255,
+          "yes_share_pct": 2.02,
+          "text_bn": "শিশুর কানে কি কোন সমস্যা আছে?",
+          "dhis2_id": "VN1gjinB8M6"
+        },
+        {
+          "key": "q30",
+          "kind": "question",
+          "text": "Is there ear pain?",
+          "answer_type": "yes_no",
+          "records": 229,
+          "yes_share_pct": 80.79,
+          "text_bn": "কানে কি ব্যথা আছে?",
+          "dhis2_id": "bo1IRQUbNCP"
+        },
+        {
+          "key": "q31",
+          "kind": "question",
+          "text": "Is there ear discharge?",
+          "answer_type": "yes_no",
+          "records": 229,
+          "yes_share_pct": 60.7,
+          "text_bn": "কান থেকে কি পুঁজ বা পানি পড়ে?",
+          "dhis2_id": "yWVmkpgsX0r"
+        },
+        {
+          "key": "q32",
+          "kind": "question",
+          "text": "is it since less than 14 days or more(2-59)?",
+          "answer_type": "yes_no",
+          "records": 139,
+          "yes_share_pct": 72.66,
+          "text_bn": "১৪ দিন এর কম সময় ধরে পড়ছে?",
+          "dhis2_id": "OktsORskzPj"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "eye_problem",
+      "area_name": "Eye Problem",
+      "items": [
+        {
+          "key": "o74",
+          "kind": "observation",
+          "text": "Cataract/Retinoblastoma/Others(Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখের ছানি/রেটিনোব্লাস্টোমা/অন্যান্য",
+          "dhis2_id": "ZM0YQtV4p4l"
+        },
+        {
+          "key": "o75",
+          "kind": "observation",
+          "text": "Discharge of water or pus from the eye (Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 69,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখ দিয়ে পানি বা পুঁজ পড়া",
+          "dhis2_id": "sinU7OMY78n"
+        },
+        {
+          "key": "o76",
+          "kind": "observation",
+          "text": "Red eye (corneal or eye injury/conjunctivitis) (Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 38,
+          "yes_share_pct": 100.0,
+          "text_bn": "চোখ লাল হয়ে যাওয়া (কর্নিয়া বা চোখে ক্ষত/ কনজাংটিভাইটিস)",
+          "dhis2_id": "vrHOs5lLbNv"
+        },
+        {
+          "key": "o77",
+          "kind": "observation",
+          "text": "Injury to the eyeball and its exterior (Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 7,
+          "yes_share_pct": 100.0,
+          "text_bn": "অক্ষি গোলক ও বহিরাংশের ইনজুরি",
+          "dhis2_id": "fHwQhwW9TyJ"
+        },
+        {
+          "key": "o78",
+          "kind": "observation",
+          "text": "Squint eye(Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 9,
+          "yes_share_pct": 100.0,
+          "text_bn": "টেরা চোখ",
+          "dhis2_id": "uDO5UoX3spu"
+        },
+        {
+          "key": "o79",
+          "kind": "observation",
+          "text": "Structural defect(Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 4,
+          "yes_share_pct": 100.0,
+          "text_bn": "গঠনজনিত ত্রুটি",
+          "dhis2_id": "qUt8bpMhoDF"
+        },
+        {
+          "key": "o80",
+          "kind": "observation",
+          "text": "Vision loss (Eye's Problem) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 6,
+          "yes_share_pct": 100.0,
+          "text_bn": "দৃষ্টিশক্তি হ্রাস",
+          "dhis2_id": "zyahBgubOKK"
+        },
+        {
+          "key": "o81",
+          "kind": "observation",
+          "text": "Unable to perceive/see(Eye's Problem)(2-59m)",
+          "answer_type": "yes_no",
+          "records": 5,
+          "yes_share_pct": 100.0,
+          "text_bn": "দৃষ্টি নিবদ্ধ করতে না পারা",
+          "dhis2_id": "AxrEwRT4qme"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "fever",
+      "area_name": "Fever",
+      "items": [
+        {
+          "key": "o52",
+          "kind": "observation",
+          "text": "Malaria RDT (Rapid Diagnostic Test)",
+          "answer_type": "choice",
+          "records": 1,
+          "options": [
+            "Malaria RDT Negative"
+          ],
+          "option_share_pct": {
+            "Malaria RDT Negative": 100.0
+          },
+          "text_bn": "ম্যালেরিয়া RDT (Rapid Diagnostic Test)",
+          "dhis2_id": "Fdt56lC74Q7"
+        },
+        {
+          "key": "o53",
+          "kind": "observation",
+          "text": "Stiff neck?",
+          "answer_type": "yes_no",
+          "records": 7589,
+          "yes_share_pct": 0.46,
+          "text_bn": "\"লক্ষ্য করুন অথবা অনুভব করুন ঘাড় শক্ত?\"",
+          "dhis2_id": "u6SgYfeJDu1"
+        },
+        {
+          "key": "o54",
+          "kind": "observation",
+          "text": "Runny nose(Fever) (2-59)??",
+          "answer_type": "yes_no",
+          "records": 7541,
+          "yes_share_pct": 36.02,
+          "text_bn": "লক্ষ্য করুন নাক দিয়ে পানি ঝরে?",
+          "dhis2_id": "i6AsJd8Nv3u"
+        },
+        {
+          "key": "o55",
+          "kind": "observation",
+          "text": "Notice if fever Bacterial?",
+          "answer_type": "yes_no",
+          "records": 7394,
+          "yes_share_pct": 3.31,
+          "text_bn": "লক্ষ্য করুন জ্বরের কারণ ব্যাকটেরিয়াল কিনা**",
+          "dhis2_id": "tmUhhys21Cu"
+        },
+        {
+          "key": "q24",
+          "kind": "question",
+          "text": "Does the child have fever(2-59)?",
+          "answer_type": "yes_no",
+          "records": 17176,
+          "yes_share_pct": 44.28,
+          "text_bn": "শিশুটির কি জ্বর আছে?",
+          "dhis2_id": "FhuEr9ukyAD"
+        },
+        {
+          "key": "q25",
+          "kind": "question",
+          "text": "Residing in a malaria risk area or travelling (within 30 days)(2-59m)",
+          "answer_type": "yes_no",
+          "records": 7591,
+          "yes_share_pct": 0.03,
+          "text_bn": "ম্যালেরিয়া ঝুঁকিপূর্ণ এলাকায় বসবাস/ভ্রমন(৩০ দিনের মধ্যে)",
+          "dhis2_id": "JepIDtMQt6v"
+        },
+        {
+          "key": "q26",
+          "kind": "question",
+          "text": "Is it since more than 7 days?",
+          "answer_type": "yes_no",
+          "records": 7591,
+          "yes_share_pct": 1.78,
+          "text_bn": "এটি কি ৭ দিনের বেশি (সময় যাচাই করুন)",
+          "dhis2_id": "QCoayhciA7n"
+        },
+        {
+          "key": "q27",
+          "kind": "question",
+          "text": "If more than 7 days, has fever been present every day?",
+          "answer_type": "yes_no",
+          "records": 92,
+          "yes_share_pct": 56.52,
+          "text_bn": "যদি জ্বর ৭ দিনের বেশী হয়, প্রতিদিনই কি জ্বর থাকে?",
+          "dhis2_id": "fjs568QbVqf"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "general_danger_signs",
+      "area_name": "General Danger Signs",
+      "items": [
+        {
+          "key": "o38",
+          "kind": "observation",
+          "text": "See if the child is lethargic or unconscious.",
+          "answer_type": "yes_no",
+          "records": 17259,
+          "yes_share_pct": 0.22,
+          "text_bn": "দেখুন, শিশুটি নেতিয়ে পড়েছে বা অজ্ঞান কি না",
+          "dhis2_id": "ENSMEPEcHyq"
+        },
+        {
+          "key": "o39",
+          "kind": "observation",
+          "text": "Is the child convulsing now?",
+          "answer_type": "yes_no",
+          "records": 17206,
+          "yes_share_pct": 0.06,
+          "text_bn": "শিশুটির এখন খিঁচুনি আছে কি না",
+          "dhis2_id": "SioH1x30Uyl"
+        },
+        {
+          "key": "q16",
+          "kind": "question",
+          "text": "Is the child able to drink or breastfeed(2-59)?",
+          "answer_type": "yes_no",
+          "records": 17259,
+          "yes_share_pct": 98.53,
+          "text_bn": "শিশুটি কি পান করতে অথবা বুকের দুধ খেতে পারে?",
+          "dhis2_id": "NC02gUJt5uM"
+        },
+        {
+          "key": "q17",
+          "kind": "question",
+          "text": "Does the child vomit everything (2-59)?",
+          "answer_type": "yes_no",
+          "records": 17259,
+          "yes_share_pct": 0.43,
+          "text_bn": "শিশুটি কি সব খাবার বমি করে ফেলে দেয়?",
+          "dhis2_id": "We5FYm5aaB3"
+        },
+        {
+          "key": "q18",
+          "kind": "question",
+          "text": "Has the child had convulsions?",
+          "answer_type": "yes_no",
+          "records": 17259,
+          "yes_share_pct": 0.24,
+          "text_bn": "শিশুটির কি খিচুনি হয়েছিল?",
+          "dhis2_id": "l4WrVg9hCjW"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "malnutrition",
+      "area_name": "Malnutrition",
+      "items": [
+        {
+          "key": "o67",
+          "kind": "observation",
+          "text": "Look oedema in both feet(2-59)",
+          "answer_type": "yes_no",
+          "records": 17056,
+          "yes_share_pct": 0.09,
+          "text_bn": "লক্ষ্য করুন - শিশুটির উভয় পা ফুলেছে কি না",
+          "dhis2_id": "WiPUbhZkTvL"
+        },
+        {
+          "key": "o68",
+          "kind": "observation",
+          "text": "Measure WFH in Z Score",
+          "answer_type": "choice",
+          "records": 10265,
+          "options": [
+            "Greater than -2 Z",
+            "Between -2 to -3 Z",
+            "Less than -3 Z"
+          ],
+          "option_share_pct": {
+            "Greater than -2 Z": 90.68,
+            "Between -2 to -3 Z": 8.13,
+            "Less than -3 Z": 1.19
+          },
+          "text_bn": "WFH (Z স্কোর) পরিমাপ করুন",
+          "dhis2_id": "lI9ClYjJ4tq"
+        },
+        {
+          "key": "o69",
+          "kind": "observation",
+          "text": "Measure MUAC (in mm)",
+          "answer_type": "choice",
+          "records": 14742,
+          "options": [
+            "Equals or greater than 125 mm",
+            "Between 115-125 mm",
+            "Less than 115 mm"
+          ],
+          "option_share_pct": {
+            "Equals or greater than 125 mm": 90.42,
+            "Between 115-125 mm": 8.99,
+            "Less than 115 mm": 0.58
+          },
+          "text_bn": "মুয়াক পরিমাপ করুন (মিলিমিটার)",
+          "dhis2_id": "lNHwow8dGfY"
+        },
+        {
+          "key": "o70",
+          "kind": "observation",
+          "text": "Are there any medical complications (general danger signs / severe classification / chest indrawing with pneumonia)?",
+          "answer_type": "yes_no",
+          "records": 10262,
+          "yes_share_pct": 0.42,
+          "text_bn": "স্বাস্থ্যগত কোন জটিলতা (সাধারণ বিপদ চিহ্ন/ তীব্র শ্রেণী বিভাগ/ নিউমোনিয়ার সাথে বুক ডেবে যাওয়া) আছে কিনা?",
+          "dhis2_id": "RbfbC4EU8pB"
+        },
+        {
+          "key": "o71",
+          "kind": "observation",
+          "text": "Finish nutrition therapy?",
+          "answer_type": "yes_no",
+          "records": 9527,
+          "yes_share_pct": 69.63,
+          "text_bn": "পুষ্টি চিকিৎসা শেষ করতে পেরেছে?",
+          "dhis2_id": "rDXgdanwHFw"
+        },
+        {
+          "key": "o72",
+          "kind": "observation",
+          "text": "Does the child have a breastfeeding problem?",
+          "answer_type": "yes_no",
+          "records": 10265,
+          "yes_share_pct": 0.57,
+          "text_bn": "শিশুর বুকের দুধ খাওয়াতে কোন সমস্যা আছে কিনা?",
+          "dhis2_id": "IDlvef9gdE0"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "measles",
+      "area_name": "Measles",
+      "items": [
+        {
+          "key": "o56",
+          "kind": "observation",
+          "text": "Generalized Rash",
+          "answer_type": "yes_no",
+          "records": 10879,
+          "yes_share_pct": 0.07,
+          "text_bn": "সারা গায়ে হামের দাগ?",
+          "dhis2_id": "NYxfxlorhU4"
+        },
+        {
+          "key": "o57",
+          "kind": "observation",
+          "text": "Is there any measles now?(2-59)",
+          "answer_type": "yes_no",
+          "records": 10859,
+          "yes_share_pct": 0.07,
+          "text_bn": "এখন কি হাম আছে?",
+          "dhis2_id": "dH76qNQlFNY"
+        },
+        {
+          "key": "o58",
+          "kind": "observation",
+          "text": "Cough (2-59)",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 21.43,
+          "text_bn": "কাশি",
+          "dhis2_id": "Ja225qbSqAb"
+        },
+        {
+          "key": "o59",
+          "kind": "observation",
+          "text": "Runny nose(Measles)(2-59)?",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 21.43,
+          "text_bn": "নাক ঝরা",
+          "dhis2_id": "D81tH5IpLq2"
+        },
+        {
+          "key": "o60",
+          "kind": "observation",
+          "text": "Red Eyes",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 7.14,
+          "text_bn": "চোখ লাল",
+          "dhis2_id": "NyuUTMuZdBk"
+        },
+        {
+          "key": "o61",
+          "kind": "observation",
+          "text": "Look for mouth ulcers",
+          "answer_type": "yes_no",
+          "records": 15,
+          "yes_share_pct": 26.67,
+          "text_bn": "মুখে ঘা আছে কি না",
+          "dhis2_id": "Uhcrdoifhtn"
+        },
+        {
+          "key": "o62",
+          "kind": "observation",
+          "text": "Mouth ulcers deep and expensive?",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 0.0,
+          "text_bn": "মুখের ঘা গভীর এবং ব্যাপক কি না?",
+          "dhis2_id": "iuGYmBFyiJD"
+        },
+        {
+          "key": "o63",
+          "kind": "observation",
+          "text": "Pus draining from the eye(2-59)",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 0.0,
+          "text_bn": "চোখ দিয়ে পুঁজ পড়ছে",
+          "dhis2_id": "E3q75Qmx9Vi"
+        },
+        {
+          "key": "o64",
+          "kind": "observation",
+          "text": "Clouding of the cornea?",
+          "answer_type": "yes_no",
+          "records": 14,
+          "yes_share_pct": 0.0,
+          "text_bn": "কর্নিয়া ঘোলাটে কি না ?",
+          "dhis2_id": "EoCykOVnzcK"
+        },
+        {
+          "key": "q28",
+          "kind": "question",
+          "text": "Has child had measles within the last 3 months?",
+          "answer_type": "yes_no",
+          "records": 11261,
+          "yes_share_pct": 0.12,
+          "text_bn": "গত ৩ মাসের মধ্যে শিশুর কি হাম হয়েছে?",
+          "dhis2_id": "H9Ysdr5HUsn"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "other_problem",
+      "area_name": "Other Problem",
+      "items": [
+        {
+          "key": "o82",
+          "kind": "observation",
+          "text": "ECD Problem(others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 8,
+          "yes_share_pct": 100.0,
+          "text_bn": "ইসিডি সমস্যা",
+          "dhis2_id": "HbGR6nAVwn4"
+        },
+        {
+          "key": "o83",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (ECD Problem) (others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 4,
+          "yes_share_pct": 100.0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "dBB5hfFphqC"
+        },
+        {
+          "key": "o84",
+          "kind": "observation",
+          "text": "Drowning into water(others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 5,
+          "yes_share_pct": 100.0,
+          "text_bn": "পানিতে ডুবে যাওয়া",
+          "dhis2_id": "fsghgYfbTkb"
+        },
+        {
+          "key": "o85",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (Drowning)(Others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "niaJWOkXtAb"
+        },
+        {
+          "key": "o86",
+          "kind": "observation",
+          "text": "Injury/accident-related illness (others)(2-59m)",
+          "answer_type": "yes_no",
+          "records": 108,
+          "yes_share_pct": 100.0,
+          "text_bn": "আঘাত/ দূর্ঘটনাজনিত অসুস্থতা",
+          "dhis2_id": "VvPPI4Oypex"
+        },
+        {
+          "key": "o87",
+          "kind": "observation",
+          "text": "Refer urgently to hospital (Injury) (Others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 9,
+          "yes_share_pct": 100.0,
+          "text_bn": "জরুরীভিত্তিতে হাসপাতালে রেফার",
+          "dhis2_id": "HoUlq5t4z89"
+        },
+        {
+          "key": "o88",
+          "kind": "observation",
+          "text": "Other problems(others) (2-59m)",
+          "answer_type": "yes_no",
+          "records": 5087,
+          "yes_share_pct": 100.0,
+          "text_bn": "অন্যান্য সমস্যা",
+          "dhis2_id": "pPTjCn9zMtS"
+        },
+        {
+          "key": "o89",
+          "kind": "observation",
+          "text": "Other problems(specify) (others) (2-59m)",
+          "answer_type": "free_text",
+          "records": 4849,
+          "text_bn": "অন্যান্য সমস্যা (নির্দিষ্ট করে লিখুন)",
+          "dhis2_id": "krwX62ARqn8"
+        }
+      ]
+    },
+    {
+      "age_group": "2-59 months",
+      "area_code": "pneumonia",
+      "area_name": "Pneumonia",
+      "items": [
+        {
+          "key": "o40",
+          "kind": "observation",
+          "text": "Number of times taking breathe in one minute",
+          "answer_type": "choice",
+          "records": 4586,
+          "options": [
+            "Bellow 40 per minute",
+            "Bellow 50 per minute",
+            "40 or more per minute",
+            "50 or more per minute"
+          ],
+          "option_share_pct": {
+            "Bellow 40 per minute": 54.23,
+            "Bellow 50 per minute": 28.98,
+            "40 or more per minute": 9.92,
+            "50 or more per minute": 6.87
+          },
+          "text_bn": "এক মিনিটে কতবার শ্বাস-প্রশ্বাস গুনুন",
+          "dhis2_id": "ccsi7Jm2hRv"
+        },
+        {
+          "key": "o41",
+          "kind": "observation",
+          "text": "Look and listen for wheezing",
+          "answer_type": "yes_no",
+          "records": 3318,
+          "yes_share_pct": 9.7,
+          "text_bn": "হুইজিং আছে কি না লক্ষ্য করুন এবং শুনুন",
+          "dhis2_id": "eelLjknNvZW"
+        },
+        {
+          "key": "o42",
+          "kind": "observation",
+          "text": "Look for chest indrawing(2-59m)",
+          "answer_type": "yes_no",
+          "records": 4591,
+          "yes_share_pct": 3.33,
+          "text_bn": "বুকের নীচের অংশ ভিতরে ডেবে যায় কিনা লক্ষ্য করুন়",
+          "dhis2_id": "VZrKldETLIR"
+        },
+        {
+          "key": "o43",
+          "kind": "observation",
+          "text": "Look and listen for stidor",
+          "answer_type": "yes_no",
+          "records": 3368,
+          "yes_share_pct": 2.43,
+          "text_bn": "স্ট্রাইডর আছে কি না লক্ষ্য করুন এবং শুনুন",
+          "dhis2_id": "LNSmsuGPrab"
+        },
+        {
+          "key": "o44",
+          "kind": "observation",
+          "text": "Measure arterial oxygen saturation level with pulse oximeter and see is it below 90%?",
+          "answer_type": "yes_no",
+          "records": 2907,
+          "yes_share_pct": 0.17,
+          "text_bn": "পালস অক্সিমিটারের সাহায্যে রক্তে অক্সিজেনের স্যাচুরেশন পরিমাপ করুন এবং দেখুন ৯০% এর কম কিনা?",
+          "dhis2_id": "bk4uUdsWVUW"
+        },
+        {
+          "key": "o45",
+          "kind": "observation",
+          "text": "Measure arterial oxygen saturation level with pulse oximeter and see is it below 92%?",
+          "answer_type": "yes_no",
+          "records": 1247,
+          "yes_share_pct": 2.09,
+          "text_bn": "পালস অক্সিমিটারের সাহায্যে রক্তে অক্সিজেনের স্যাচুরেশন পরিমাপ করুন এবং দেখুন ৯২% এর কম কিনা?",
+          "dhis2_id": "pxI9ahOfiv5"
+        },
+        {
+          "key": "q19",
+          "kind": "question",
+          "text": "Does the child have cough or difficult breathing(2-59)?",
+          "answer_type": "yes_no",
+          "records": 17202,
+          "yes_share_pct": 26.75,
+          "text_bn": "শিশুটির কি কাশি অথবা শ্বাসকষ্ট আছে?",
+          "dhis2_id": "uGvYm1xsLAL"
+        },
+        {
+          "key": "q20",
+          "kind": "question",
+          "text": "For how long?(2-59m)",
+          "answer_type": "number",
+          "records": 4586,
+          "common_values": {
+            "2": 1912,
+            "3": 1433,
+            "4": 410,
+            "5": 280,
+            "1": 231,
+            "7": 139,
+            "6": 61,
+            "10": 26,
+            "15": 25,
+            "8": 24
+          },
+          "text_bn": "কত দিন ধরে?",
+          "dhis2_id": "Nldi2wMh6ZH"
+        }
+      ]
+    }
+  ],
+  "classifications": {
+    "Very Severe Diseases - 0-2 months": [
+      {
+        "name": "Very Severe Disease- Critical Illness (VSD-CI)(0-2m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Not Applicable"
+      },
+      {
+        "name": "Very Severe Disease- Possible Severe Bacterial Infection (VSD-PSBI) (0-2m)",
+        "colour_nurse_sacmo": "Not Applicable",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Very Severe Disease- Critical Severe Illness (VSD-CSI)(0-2m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Not Applicable"
+      },
+      {
+        "name": "Very Severe Disease Fast Breathing Pneumonia (VSD-FBP)(0-6d)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Very Severe Disease Fast Breathing Pneumonia (VSD-FBP)(7-59d)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Local Bacterial Infection(0-2m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Severe Disease or Local Infection Unlikely(0-2m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      }
+    ],
+    "Jaundis - 0-2 months": [
+      {
+        "name": "No Jaundice(0-2m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Jaundice(0-2m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Severe Jaundice(0-2m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ],
+    "Diarrhea - 0-2 months": [
+      {
+        "name": "No Dehydration(0-2m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Some Dehydration(0-2m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Severe Dehydration(0-2m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ],
+    "Feeding Problem or Low Weight - 0-2 months": [
+      {
+        "name": "Very low weight in proportion to age(0-2m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Feeding Problem or Low Weight(0-2m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "No Feeding Problem(0-2m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      }
+    ],
+    "General danger signs - 2-59 months": [
+      {
+        "name": "Very Severe Disease(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "No Very Severe Disease(2-59m)",
+        "colour_nurse_sacmo": "No color",
+        "colour_chw": "No color"
+      }
+    ],
+    "Pneumonia - 2-59 months": [
+      {
+        "name": "Normal(2-59m)",
+        "colour_nurse_sacmo": "No color",
+        "colour_chw": "No color"
+      },
+      {
+        "name": "No Pneumonia (Cough Or Cold) (2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Pneumonia (2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Severe Pneumonia(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ],
+    "Diarrhea - 2-59 months": [
+      {
+        "name": "No Dehydration(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Severe Dehydration(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Some Dehydration(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Severe Persistent Diarrhoea(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Persistent Diarrhoea (2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Dysentery(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      }
+    ],
+    "Fever - 2-59 months": [
+      {
+        "name": "Fever - No Malaria(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Fever (2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "No Fever(2-59m)",
+        "colour_nurse_sacmo": "No color",
+        "colour_chw": "No color"
+      },
+      {
+        "name": "Very Severe Febrile Disease(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Malaria(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      }
+    ],
+    "Measles - 2-59 months": [
+      {
+        "name": "Measles With Eye or Mouth Complication(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Measles(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "No Measles(2-59m)",
+        "colour_nurse_sacmo": "No color",
+        "colour_chw": "No color"
+      },
+      {
+        "name": "Severe Complicated Measles(2-59)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ],
+    "Ear problem - 2-59 months": [
+      {
+        "name": "Acute Ear Infection(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "Chronic Ear Infection(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "No Ear Infection(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Mastoiditis(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ],
+    "Malnutrition - 2-59 months": [
+      {
+        "name": "Complicated Severe Acute Malnutrition(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      },
+      {
+        "name": "Moderate Acute Malnutrition(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Pink-Yellow*"
+      },
+      {
+        "name": "No Acute Malnutrition(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Uncomplicated Severe Acute Malnutrition(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Pink-Yellow*"
+      }
+    ],
+    "Anaemia - 2-59 months": [
+      {
+        "name": "Anaemia(2-59m)",
+        "colour_nurse_sacmo": "Yellow",
+        "colour_chw": "Yellow"
+      },
+      {
+        "name": "No Anaemia(2-59m)",
+        "colour_nurse_sacmo": "Green",
+        "colour_chw": "Green"
+      },
+      {
+        "name": "Severe Anaemia(2-59m)",
+        "colour_nurse_sacmo": "Pink",
+        "colour_chw": "Pink"
+      }
+    ]
+  }
+}

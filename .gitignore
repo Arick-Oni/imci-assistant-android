@@ -1,0 +1,19 @@
+.gradle/
+build/
+local.properties
+.idea/
+.cxx/
+*.iml
+signing/
+
+# never commit: release signing key, the 786 MB speech model, build logs
+*.jks
+*.keystore
+keystore.properties
+app/src/main/assets/speech_model.bin
+build*_log.txt
+
+# form models are copied to the phone, not built into the app
+*.gguf
+*.onnx
+bundle_assets/
